@@ -3,9 +3,7 @@ name: Build and deploy portfolio
 on:
   push:
     branches:
-      # TODO: switch to main when workflow run as expected
-      - dev
-      # - main
+      - main
 
 permissions:
   contents: read
