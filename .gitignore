@@ -135,7 +135,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# public JS files are generate from TS files
-/public/*.js
-
-node_modules/
+# Generated JavaScript from TS files
+/public/*js
+/public/*js.map
