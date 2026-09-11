@@ -4,7 +4,7 @@ on:
   push:
     branches:
       # TODO: switch to main when workflow run as expected
-      - main
+      - dev
       # - main
 
 permissions:
