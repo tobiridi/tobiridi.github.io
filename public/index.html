@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Tony Jadoulle, full stack web and mobile developer. Explore my projects and skills.">
+    <meta name="keywords" content="portfolio, developer, web, mobile, full stack, software, Tony Jadoulle">
+    <meta name="theme-color" content="#459bf2">
+    <meta name="color-scheme" content="dark light">
+    <meta name="author" content="Tony Jadoulle">
+    <meta name="robots" content="index, follow">
+    <meta name="og:title" content="Tony Jadoulle - Portfolio">
+    <meta name="og:description" content="Portfolio of Tony Jadoulle, full stack web and mobile developer. Explore my projects and skills.">
+    <meta name="og:url" content="https://tobiridi.github.io/">
+    <meta name="og:type" content="website">
+    <meta name="twitter:title" content="Tony Jadoulle - Portfolio">
+    <meta name="twitter:description" content="Portfolio of Tony Jadoulle, full stack web and mobile developer. Explore my projects and skills.">
+    <link rel="stylesheet" href="./assets/css/animations.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <script src="./script.js" defer></script>
+    <title>Tony Jadoulle - Portfolio</title>
+</head>
+<!-- use "data-translatable" attribute for translations -->
+<body class="dark">
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#features" data-translatable="showcase">Showcase</a></li>
+                <li><a href="#about" data-translatable="about">About</a></li>
+                <li><a href="#skills" data-translatable="skills">Skills</a></li>
+                <li><a href="#projects" data-translatable="projects">Projects</a></li>
+                <li><a href="#contact" data-translatable="contact">Contact</a></li>
+            </ul>
+            <div class="navbar-actions">
+                <div id="language-selector">
+                    <button type="button" id="selected-lang" value="en">
+                        <img src="./assets/img/flags/united-kingdom.png" alt="English" />
+                        EN
+                    </button>
+                    <ul class="language-options hidden">
+                        <li>
+                            <button type="button" class="lang-option" value="en">
+                                <img src="./assets/img/flags/united-kingdom.png" alt="English" />
+                                EN
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button" class="lang-option" value="fr">
+                                <img src="./assets/img/flags/france.png" alt="Français" />
+                                FR
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <button type="button" id="theme-toggle">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button type="button" id="menu-toggle" class="hidden">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- hero section -->
+        <section id="hero">
+            <div class="container">
+                <h1 data-translatable="title"><span class="gradient-text" data-translatable="title-gradient-text">Full Stack developer</span> for the web and mobile</h1>
+                <p data-translatable="subtitle">Versatile developer combining technical performance, user experience and adaptability to every requirement.</p>
+                <div class="hero-actions">
+                    <a href="#projects" data-translatable="project-link">See my projects</a>
+                    <a href="#about" data-translatable="about-link">Learn More</a>
+                </div>
+                <div class="terminal-container">
+                    <div class="terminal-topbar">
+                        <span class="terminal-action"></span>
+                        <span class="terminal-action"></span>
+                        <span class="terminal-action"></span>
+                    </div>
+                    <div class="terminal">
+                        <span>&dollar;</span>
+                        <span class="terminal-text">https://tobiridi.github.io/</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- features section -->
+        <section id="features">
+            <div class="container">
+                <h2 data-translatable="title">What's in my Toolkit</h2>
+                <p data-translatable="subtitle">Everything needed to build great products on the web and mobile.</p>
+                <div class="features-list">
+                    <div class="feature-card">
+                        <i class="fa-solid fa-paintbrush"></i>
+                        <h3 data-translatable="feature1-title">Modern UI/UX Design</h3>
+                        <p data-translatable="feature1-description">
+                            Creating beautiful, responsive and intuitive interfaces that look great 
+                            on any device using the latest design.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fa-solid fa-code"></i>
+                        <h3 data-translatable="feature2-title">Clean code</h3>
+                        <p data-translatable="feature2-description">
+                            Writing maintainable, efficient and scalable code following 
+                            best practices and modern development standards.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fa-solid fa-bolt"></i>
+                        <h3 data-translatable="feature3-title">Performance optimization</h3>
+                        <p data-translatable="feature3-description">
+                            Ensure fast loading times and smooth user experiences by optimizing
+                            code and asset without reducing security and robustness.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fa-solid fa-mobile-alt"></i>
+                        <h3 data-translatable="feature4-title">Clear documentation</h3>
+                        <p data-translatable="feature4-description">
+                            Provide clear and comprehensive documentation for all projects, 
+                            making it easy for other developers to understand and contribute.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section id="about">
+            <div class="container">
+                <div class="about-me">
+                    <h2 data-translatable="title">About Me</h2>
+                    <p data-translatable="subtitle">
+                        I'm a full stack developer focused on building user-friendly and maintainable solutions that solves real-world problems.
+                    </p>
+                    <p data-translatable="description1">
+                        My expertise includes web development, mobile applications and software development.
+                        I build fast, secure and easy to use solutions following best practices and development standards.
+                        According to my skills in Java, Kotlin, HTML, CSS, TypeScript, Angular.
+                    </p>
+                    <p data-translatable="description2">
+                        My goal is to build applications that not only look great but also provide a seamless user experience.
+                        I believe that a good application should be easy to use and reliable. 
+                        I'm always looking for ways to improve my skills and stay up-to-date with the latest technologies.
+                    </p>
+                    <div class="about-actions">
+                        <a href="#contact" data-translatable="contact-link">Contact me</a>
+                        <a href="./assets/resume/Jadoulle_Tony_resume_en.pdf" id="resume-link" target="_blank" data-translatable="resume-link">Download Resume</a>
+                    </div>
+                </div>
+                <div class="picture-me">
+                    <img src="./assets/img/jadoulle_tony_picture.jpg" alt="Tony Jadoulle picture" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills section -->
+        <section id="skills">
+            <div class="container">
+                <h2 data-translatable="title">My Skills</h2>
+                <p data-translatable="subtitle">Technologies and tools I use to bring products to life.</p>
+                <div class="skills-list">
+                    <div class="skill-card">
+                        <i class="fa-brands fa-java" style="color: #ea8500; background-color: hsl(34, 70%, 93%);"></i>
+                        <h3>Java</h3>
+                        <div class="skill-level">
+                            <span class="progress-bar" style="--max-value: 95%;"></span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-angular" style="color: #D6002F; background-color: hsl(348, 70%, 93%);"></i>
+                        <h3>Angular</h3>
+                        <div class="skill-level">
+                            <span class="progress-bar" style="--max-value: 85%;"></span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-android" style="color: #38DF88; background-color: hsl(150, 70%, 93%);"></i>
+                        <h3>Android</h3>
+                        <div class="skill-level">
+                            <span class="progress-bar" style="--max-value: 90%;"></span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-docker" style="color: #2599EE; background-color: hsl(204, 70%, 93%);"></i>
+                        <h3>Docker</h3>
+                        <div class="skill-level">
+                            <span class="progress-bar" style="--max-value: 85%;"></span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-desktop" style="color: #9271ed; background-color: hsl(256, 70%, 93%);"></i>
+                        <h3>Responsive</h3>
+                        <div class="skill-level">
+                            <span class="progress-bar" style="--max-value: 90%;"></span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-database" style="color: #a2a2a2; background-color: hsl(10, 20%, 93%);"></i>
+                        <h3>Database</h3>
+                        <div class="skill-level">
+                            <span class="progress-bar" style="--max-value: 95%;"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects section -->
+        <section id="projects">
+            <div class="container">
+                <h2 data-translatable="title">My projects</h2>
+                <p data-translatable="subtitle">Check out some of my recent work.</p>
+                <div class="projects-list">
+                    <div class="project-card">
+                        <!-- TODO: add a picture of the project -->
+                        <img src="./assets/img/no-image-icon.png" alt="mobile application password manager" />
+                        <div class="project-content">
+                            <h3 data-translatable="project1-title">Password manager (in progress)</h3>
+                            <p data-translatable="project1-description">
+                                A mobile app that simplifies password management by combining security, 
+                                usability, and portability.
+                            </p>
+                            <div class="project-skills">
+                                <span>Android</span>
+                                <span>Java</span>
+                                <span>Figma</span>
+                                <span>Git</span>
+                                <span>Room Database</span>
+                                <span>Material Design 3</span>
+                            </div>
+                            <!-- TODO: add links to the project -->
+                            <div class="project-links">
+                                <a href="https://github.com/tobiridi" target="_blank" rel="noopener external" data-translatable="about-link">
+                                    Learn More
+                                </a>
+                                <a href="https://github.com/tobiridi" target="_blank" rel="noopener external">
+                                    <i class="fa-brands fa-github"></i>
+                                    Code
+                                </a>
+                                <a href="https://tobiridi.github.io/" target="_blank" rel="noopener" data-translatable="demo-link">
+                                    <i class="fa-solid fa-eye"></i>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <!-- TODO: add a picture of the project -->
+                        <img src="./assets/img/no-image-icon.png" alt="calculator web application" />
+                        <div class="project-content">
+                            <h3 data-translatable="project2-title">Password generator</h3>
+                            <p data-translatable="project2-description">
+                                A web application that generates strong and secure passwords based on user-defined criteria, 
+                                ensuring enhanced security for online accounts.
+                            </p>
+                            <div class="project-skills">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <!-- TODO: add links to the project -->
+                            <div class="project-links">
+                                <a href="https://github.com/tobiridi" target="_blank" rel="noopener external" data-translatable="about-link">
+                                    Learn More
+                                </a>
+                                <a href="https://github.com/tobiridi" target="_blank" rel="noopener external">
+                                    <i class="fa-brands fa-github"></i>
+                                    Code
+                                </a>
+                                <a href="https://tobiridi.github.io/" target="_blank" rel="noopener" data-translatable="demo-link">
+                                    <i class="fa-solid fa-eye"></i>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact">
+            <div class="container">
+                <h2 data-translatable="title">Get in Touch</h2>
+                <p data-translatable="subtitle">Interested in working together? Let's connect!</p>
+                <div class="contact-infos">
+                    <div class="contact-card">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:tony.jadoulle-job@hotmail.com">tony.jadoulle-job@hotmail.com</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fa-solid fa-map-location"></i>
+                        <h3 data-translatable="location">Location</h3>
+                        <p data-translatable="region">Belgium, Courcelles</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fa-solid fa-globe"></i>
+                        <h3 data-translatable="social-media">Social Media</h3>
+                        <div class="social-links">
+                            <a href="https://github.com/tobiridi" target="_blank" rel="noopener external">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/tony-jadoulle/" target="_blank" rel="noopener external">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#features" data-translatable="showcase">Showcase</a></li>
+                    <li><a href="#about" data-translatable="about">About</a></li>
+                    <li><a href="#skills" data-translatable="skills">Skills</a></li>
+                    <li><a href="#projects" data-translatable="projects">Projects</a></li>
+                    <li><a href="#contact" data-translatable="contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social-links">
+                <a href="https://github.com/tobiridi" target="_blank" rel="noopener external">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/tony-jadoulle/" target="_blank" rel="noopener external">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+        <p id="copyright" data-translatable="copyright">&copy; 2026 Tony Jadoulle Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>

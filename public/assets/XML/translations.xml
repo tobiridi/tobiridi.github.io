@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Translations for the following languages: 
+    French (fr), English (en)
+-->
+<translations>
+    <navbar>
+        <showcase lang="en">Showcase</showcase>
+        <showcase lang="fr">Vitrine</showcase>
+
+        <about lang="en">About</about>
+        <about lang="fr">À propos</about>
+
+        <skills lang="en">Skills</skills>
+        <skills lang="fr">Compétences</skills>
+
+        <projects lang="en">Projects</projects>
+        <projects lang="fr">Projets</projects>
+
+        <contact lang="en">Contact</contact>
+        <contact lang="fr">Contact</contact>
+    </navbar>
+
+    <hero>
+        <title lang="en"><title-gradient-text lang="en">Full Stack developer</title-gradient-text> for the web and mobile</title>
+        <title lang="fr"><title-gradient-text lang="fr">développeur Full Stack</title-gradient-text> pour le web et mobile</title>
+
+        <subtitle lang="en">Versatile developer combining technical performance, user experience and adaptability to every requirement.</subtitle>
+        <subtitle lang="fr">Développeur polyvalent alliant performance technique, expérience utilisateur et adaptabilité à chaque exigence.</subtitle>
+
+        <project-link lang="en">See my projects</project-link>
+        <project-link lang="fr">Voir mes projets</project-link>
+
+        <about-link lang="en">Learn More</about-link>
+        <about-link lang="fr">En savoir plus</about-link>
+    </hero>
+
+    <features>
+        <title lang="en">What's in my Toolkit</title>
+        <title lang="fr">Qu'y a-t-il dans ma boîte à outils</title>
+
+        <subtitle lang="en">Everything needed to build great products on the web and mobile.</subtitle>
+        <subtitle lang="fr">Tout ce qu'il faut pour créer d'excellents produits sur le Web et sur mobile.</subtitle>
+
+        <feature1-title lang="en">Modern UI/UX Design</feature1-title>
+        <feature1-title lang="fr">Conception UI/UX Moderne</feature1-title>
+        <feature1-description lang="en">Creating beautiful, responsive and intuitive interfaces that look great on any device using the latest design.</feature1-description>
+        <feature1-description lang="fr">Création d'interfaces belles, réactives et intuitives qui ont fière allure sur n'importe quel appareil en utilisant les dernières tendances de conception.</feature1-description>
+
+        <feature2-title lang="en">Clean code</feature2-title>
+        <feature2-title lang="fr">Code propre</feature2-title>
+        <feature2-description lang="en">Writing maintainable, efficient and scalable code following best practices and modern development standards.</feature2-description>
+        <feature2-description lang="fr">Écriture de code maintenable, efficace et évolutif en suivant les meilleures pratiques et les normes de développement.</feature2-description>
+
+        <feature3-title lang="en">Performance optimization</feature3-title>
+        <feature3-title lang="fr">Optimisation des performances</feature3-title>
+        <feature3-description lang="en">Ensure fast loading times and smooth user experiences by optimizing code and asset without reducing security and robustness.</feature3-description>
+        <feature3-description lang="fr">Assurer des temps de chargement rapides et des expériences utilisateur fluides en optimisant le code et les ressources sans réduire la sécurité et la robustesse.</feature3-description>
+    
+        <feature4-title lang="en">Clear documentation</feature4-title>
+        <feature4-title lang="fr">Documentation claire</feature4-title>
+        <feature4-description lang="en">Provide clear and comprehensive documentation for all projects, making it easy for other developers to understand and contribute.</feature4-description>
+        <feature4-description lang="fr">Fournir une documentation claire et complète pour tous les projets, facilitant la compréhension et la contribution des autres développeurs.</feature4-description>
+    </features>
+    
+    <about>
+        <title lang="en">About Me</title>
+        <title lang="fr">À propos de moi</title>
+
+        <subtitle lang="en">I'm a full stack developer focused on building user-friendly and maintainable solutions that solves real-world problems.</subtitle>
+        <subtitle lang="fr">Je suis un développeur full stack axé sur la création de solutions conviviales et maintenables qui résolvent des problèmes concrets.</subtitle>
+
+        <description1 lang="en">
+            My expertise includes web development, mobile applications and software development.
+            I build fast, secure and easy to use solutions following best practices and development standards.
+            According to my skills in Java, Kotlin, HTML, CSS, TypeScript and Angular.
+        </description1>
+        <description1 lang="fr">
+            Mon expertise comprend le développement web, les applications mobiles et le développement de logiciels.
+            Je construis des solutions rapides, sécurisées et faciles à utiliser en suivant les meilleures pratiques et les normes de développement.
+            Selon mes compétences en Java, Kotlin, HTML, CSS, TypeScript et Angular.
+        </description1>
+
+        <description2 lang="en">
+            My goal is to build applications that not only look great but also provide a seamless user experience.
+            I believe that a good application should be easy to use and reliable. 
+            I'm always looking for ways to improve my skills and stay up-to-date with the latest technologies.
+        </description2>
+        <description2 lang="fr">
+            Mon objectif est de créer des applications qui non seulement ont fière allure, mais qui offrent également une expérience utilisateur fluide.
+            Je crois qu'une bonne application doit être facile à utiliser et fiable.
+            Je suis toujours à la recherche de moyens pour améliorer mes compétences et rester à jour avec les dernières technologies.
+        </description2>
+
+        <contact-link lang="en">Contact me</contact-link>
+        <contact-link lang="fr">Contactez-moi</contact-link>
+
+        <resume-link lang="en">Download resume</resume-link>
+        <resume-link lang="fr">Télécharger mon CV</resume-link>
+    </about>
+
+    <skills>
+        <title lang="en">My Skills</title>
+        <title lang="fr">Mes Compétences</title>
+
+        <subtitle lang="en">Technologies and tools I use to bring products to life.</subtitle>
+        <subtitle lang="fr">Technologies et outils que j'utilise pour donner vie aux produits.</subtitle>
+    </skills>
+
+    <!-- TODO: regroup about-link, demo-link -->
+    <projects>
+        <title lang="en">My Projects</title>
+        <title lang="fr">Mes Projets</title>
+
+        <subtitle lang="en">A showcase of my work across various domains.</subtitle>
+        <subtitle lang="fr">Une vitrine de mon travail dans divers domaines.</subtitle>
+
+        <project1-title lang="en">Password manager (in progress)</project1-title>
+        <project1-title lang="fr">Gestionnaire de mot de passe (en cours)</project1-title>
+        <project1-description lang="en">A mobile app that simplifies password management by combining security, usability, and portability.</project1-description>
+        <project1-description lang="fr">Une application mobile qui simplifie la gestion des mots de passe en alliant sécurité, ergonomie et portabilité.</project1-description>
+        <about-link lang="en">Learn More</about-link>
+        <about-link lang="fr">En savoir plus</about-link>
+        <demo-link lang="en">Live Demo</demo-link>
+        <demo-link lang="fr">Démo en direct</demo-link>
+
+        <project2-title lang="en">Password generator</project2-title>
+        <project2-title lang="fr">Générateur de mot de passe</project2-title>
+        <project2-description lang="en">A web application that generates strong and secure passwords based on user-defined criteria, ensuring enhanced security for online accounts.</project2-description>
+        <project2-description lang="fr">Une application web qui génère des mots de passe forts et sécurisés en fonction de critères définis par l'utilisateur, garantissant une sécurité renforcée pour les comptes en ligne.</project2-description>
+        <about-link lang="en">Learn More</about-link>
+        <about-link lang="fr">En savoir plus</about-link>
+        <demo-link lang="en">Live Demo</demo-link>
+        <demo-link lang="fr">Démo en direct</demo-link>
+    </projects>
+
+    <contact>
+        <title lang="en">Get in Touch</title>
+        <title lang="fr">Entrer en Contact</title>
+
+        <subtitle lang="en">Interested in working together? Let's connect!</subtitle>
+        <subtitle lang="fr">Intéressé par une collaboration ? Connectons-nous !</subtitle>
+
+        <location lang="en">Location</location>
+        <location lang="fr">Emplacement</location>
+
+        <region lang="en">Belgium, Courcelles</region>
+        <region lang="fr">Belgique, Courcelles</region>
+
+        <social-media lang="en">Social Media</social-media>
+        <social-media lang="fr">Réseaux Sociaux</social-media>
+    </contact>
+
+    <footer>
+        <showcase lang="en">Showcase</showcase>
+        <showcase lang="fr">Vitrine</showcase>
+
+        <about lang="en">About</about>
+        <about lang="fr">À propos</about>
+
+        <skills lang="en">Skills</skills>
+        <skills lang="fr">Compétences</skills>
+
+        <projects lang="en">Projects</projects>
+        <projects lang="fr">Projets</projects>
+
+        <contact lang="en">Contact</contact>
+        <contact lang="fr">Contact</contact>
+
+        <copyright lang="en">© 2026 Tony Jadoulle Portfolio. All rights reserved.</copyright>
+        <copyright lang="fr">© 2026 Tony Jadoulle Portfolio. Tous droits réservés.</copyright>
+    </footer>
+</translations>
